@@ -11,7 +11,7 @@ docker compose down
 ```
 
 ```
-http://localhost:8010/web/database/selector
+
 ```
 
 
