@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
     'name': 'Gestio de biblioteca',
-    'version': '0.1',
+    'version': '11.0.1.0.0',
     'author': 'Erica Poaquiza',
     'maintainer': 'Erica Poaquiza',
     'website': 'http://www.we_personal.com',
@@ -12,7 +14,10 @@
     'depends': ['base'],
     'data': [
         "security/library_security.xml",
-        'views/library_menu.xml'
+        "security/ir.model.access.csv",
+        "views/book_view.xml",
+        "views/library_menu.xml",
     ],
     'images': ['static/description/banner.jpg'],
+    'aplication': True,
 }
