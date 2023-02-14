@@ -31,8 +31,8 @@ def button_check_isbn(self):
     for book in self:
         if not book.isbn:
             raise ValidationError(
-                "Por favor, proporciona un ISBN para %s" %book.name)
+                "Por favor, proporciona un ISBN para %s" % book.name)
         if book.isbn and not book._check_isbn():
             raise ValidationError(
-                " %s ISBN no es válido" %book.isbn)
+                " %s ISBN no es válido" % book.isbn)
     return True

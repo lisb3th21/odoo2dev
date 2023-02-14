@@ -1,6 +1,6 @@
 <odoo>
     <!-- Library menu app-->
- <menuitem id="menu_library" name="Library"/>
+ <menuitem id="menu_library" name="Biblioteca"/>
 
  <!-- Action to open the book list -->
 

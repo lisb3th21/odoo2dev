@@ -1,6 +1,6 @@
 <odoo>
 	<record id="view_from_book" model="ir.ui.view">
-		<field name="name">Book from</field>
+		<field name="name">Book Form</field>
 		<field name="model">library.book</field>
 		<field name="arch" type="xml">
 			<form string="Book">
